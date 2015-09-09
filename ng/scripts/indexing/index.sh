@@ -88,7 +88,7 @@ doeval() {
 }
 
 VERSION=0.1
-HST="pcs-genedb-dev"
+HST="pcs-genedb-dev-clone"
 
 if [ `uname -n` != ${HST} ]; then
     echo "This only runs on ${HST}. Not proceeding."
